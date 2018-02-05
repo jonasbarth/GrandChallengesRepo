@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Turn The Tide</title>
+  <link href = "stylesheet.css" rel = "stylesheet" type = "text/css">
+
+  <script src = "p5/p5.min.js" type = "text/javascript"></script>
+  <script src = "js/game.js" type = "text/javascript"></script>
+  <script src = "js/utils.js" type = "text/javascript"></script>
+  <script src = "js/jquery/jquery-3.2.1.min.js" type = "text/javascript"></script>
+</head>
+
+<body onload = "addEventListeners(); loadProgress();">
+  <div class = "main_div" id = "header">
+    <img id = "logo" src = "pics/gameLogo2.jpg"></img>
+
+  </div>
+
+
+  <div class = "main_div" id = "game_canvas">
+
+    <div class = "main_div" id = "climate_change_info">
+      <h3 id = "heading">What is Climate Change</h3>
+      <p>Info about climate change here</p>
+    </div>
+
+
+    <div class = "main_div" id = "game_info">
+      <h3 id = "heading">How to play the game</h3>
+      <p>Info about the game</p>
+
+      <button id = "start">Start Game</button>
+    </div>
+
+
+    </div>
+
+
+  <div class = "main_div" id = "nav">
+    <ul class = "topnav" id = "myTopnav">
+      <li id = "menuTask"> Tasks</li>
+      <li id = "game">Game</li>
+      <li id = "help">Help</li>
+      <li class="icon" id = "icon">
+          <a href="javascript:void(0);" onclick="showResponsiveMenu()">&#9776;</a>
+      </li>
+    </ul>
+
+  </div>
+
+
+
+
+
+
+
+  <div id = "weeklyTasks" class = "main_div" >
+    <h3 id = "heading">Your Weekly Tasks</h3>
+    <p id = "heading">This week I have...</p>
+
+    <ul id = "buttons">
+      <li class = "tasks">
+
+        <p>Put rubbish into the recycyling bin</p>
+        <button class = "yes" id ="0">Yes</button>
+        <button class = "no" id ="1">No</button>
+      </li>
+
+      <li class = "tasks">
+        <br>
+        <p>Not thrown away any food</p>
+        <button class = "yes" id = "2">Yes</button>
+        <button class = "no" id = "3">No</button>
+      </li>
+
+      <li class = "tasks">
+        <br>
+        <p>Not left the water running</p>
+        <button class = "yes" id = "4">Yes</button>
+        <button class = "no" id = "5">No</button>
+      </li>
+
+      <li class = "tasks">
+        <br>
+        <p>Turned off lights when leaving a room</p>
+        <button class = "yes" id = "6">Yes</button>
+        <button class = "no" id = "7">No</button>
+      </li>
+
+      <li class = "tasks">
+        <br>
+        <p>Eaten locally produced food</p>
+        <button class = "yes" id = "8">Yes</button>
+        <button class = "no" id = "9">No</button>
+      </li>
+
+        <li class = "tasks">
+        <br>
+        <p>Not boiled excess water in my kettle</p>
+        <button class = "yes" id = "10">Yes</button>
+        <button class = "no" id = "11">No</button>
+      </li>
+
+        <li class = "tasks">
+        <br>
+        <p>Taken a shower instead of a bath</p>
+        <button class = "yes" id = "12">Yes</button>
+        <button class = "no" id = "13">No</button>
+      </li>
+
+      <li class = "tasks">
+    <br>
+    <p>Picked up litter from the street</p>
+    <button class = "yes" id = "14">Yes</button>
+    <button class = "no" id = "15">No</button>
+  </li>
+
+    <li class = "tasks">
+    <br>
+    <p>Reused a plastic water bottle</p>
+    <button class = "yes" id = "16">Yes</button>
+    <button class = "no" id = "17">No</button>
+  </li>
+
+  <li class = "tasks">
+    <br>
+    <p>Put my devices on standby when I don't use them</p>
+    <button class = "yes" id = "18">Yes</button>
+    <button class = "no" id = "19">No</button>
+  </li>
+
+  <li class = "tasks">
+    <br>
+    <button id = "save_btn" onclick = "saveProgress()">Save</button>
+    <button id = "reset_btn" onclick = "resetProgress()">Reset</button>
+    </li>
+  </ul>
+
+</div>
+
+<!--
+  <div id = "footer">
+    <img id = "waves" src = "pics/waves.png"></img>
+  </div>
+-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+body {
+  font-family: sans-serif;
+  background-color: #efefef;
+}
+
+#header {
+  text-align: center;
+}
+
+#heading {
+  text-align: center;
+}
+
+.main_div {
+  background-color: white;
+  width: 680px;
+  margin: auto auto;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: #8ad882;
+  margin-bottom: 10px;
+  text-align: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+li:last-child {
+  float:none;
+}
+
+#nav {
+  background-color: grey;
+  width:10%;
+  margin-right: 22%;
+
+}
+
+
+
+p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#logo {
+  width: 300px;
+}
+
+#game_canvas {
+  width: 45%;
+  margin-left: 21.5%;
+  float: left;
+}
+
+
+#climate_change_info {
+  clear:both;
+  width: 45%;
+  display: none;
+}
+
+
+#game_info {
+  clear:both;
+  width: 35%;
+  display: none;
+  position: absolute;
+  top: 75%;
+  left: 27%;
+}
+
+
+#weeklyTasks {
+  /*width: 45%;*/
+  overflow: scroll;
+  height: 400px;
+  display: none;
+
+  clear:both;
+  width: 35%;
+  display: none;
+  position: absolute;
+  top: 55%;
+  left: 27%;
+}
+
+.yes {
+  width: 125px;
+  margin-left: 75px;
+
+}
+
+.yes:hover {
+  background-color: #dbcbcb;
+}
+
+.no:hover {
+  background-color: #dbcbcb;
+}
+
+.no {
+  width: 125px;
+
+}
+
+.yesClicked {
+  width: 125px;
+  background-color: #36c138;
+  margin-left: 75px;
+}
+
+.noClicked {
+  width: 125px;
+  background-color: #ce1818;
+}
+
+#buttons {
+  text-align: justify;
+}
+
+
+.tasks {
+  margin-bottom: 1px;
+  background-color: #6FA4B8;
+  margin-left: -40px;
+  padding-bottom: 10px;
+  margin-right: 0px;
+}
+
+button {
+  margin: auto auto;
+}
+
+#tasks {
+
+}
+
+.topnav.responsive {
+		position: relative;
+	}
+
+  .topnav.responsive li.icon {
+    position: absolute;
+    right: 0px;
+    top: 0;
+
+  }
+
+  .topnav.responsive li {
+    float: none;
+    display: inline;
+
+  }
+
+  .topnav.responsive li a {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: -10px;
+    margin-top: -30px;
+  }
+
+
+  .topnav li {
+		display: none;
+	}
+
+	.topnav li.icon {
+		margin-bottom: -40px;
+		display: inline-block;
+	}
